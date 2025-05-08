@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ImageCard from "./ImageCard";
 
 function Card() {
     return(
@@ -11,3 +11,5 @@ function Card() {
         </div>
     );
 }
+
+export default Card;
