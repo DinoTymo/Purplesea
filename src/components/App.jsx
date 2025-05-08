@@ -1,5 +1,10 @@
 import React from "react";
+import newPost from "./newPost";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <newPost />
+    </div>
+  );
 }
