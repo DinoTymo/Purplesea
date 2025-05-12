@@ -1,10 +1,10 @@
 import React from "react";
-import newPost from "./newPostDialogue";
+import NewPostDialogue from "./NewPostDialogue";
 
 function App() {
   return (
     <div>
-      <newPostDialogue />
+      <NewPostDialogue />
     </div>
   );
 }
