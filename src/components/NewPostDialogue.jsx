@@ -7,6 +7,7 @@ function NewPostDialogue() {
       <button type="button" className="btn btn-primary">
         Base class
       </button>
+      <i class="bi bi-film"></i>
       <OptionsBar />
     </div>
   );
