@@ -4,6 +4,9 @@ import OptionsBar from "./OptionsBar";
 function NewPostDialogue() {
   return (
     <div className="new-post-dialogue">
+      <button type="button" className="btn btn-primary">
+        Base class
+      </button>
       <OptionsBar />
     </div>
   );

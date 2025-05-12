@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faImage } from "@fortawesome/free-solid-svg-icons"
 
 function OptionsBar() {
   return (
     <div className="options-bar">
-      <FontAwesomeIcon icon="fa-regular fa-image" />
       <i class="bi bi-film"></i>
-      <FontAwesomeIcon icon="fa-solid fa-house" />
-      <FontAwesomeIcon icon="fa-solid fa-house" />
+      <i class="bi bi-image"></i>
+      <FontAwesomeIcon icon={faImage} />
     </div>
   );
 }
