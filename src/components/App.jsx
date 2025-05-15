@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "./Card";
+import Body from "./Body";
 
 function App(){
     return(
         <div>
-            <Card />
+            <Body />
         </div>
     );
 }

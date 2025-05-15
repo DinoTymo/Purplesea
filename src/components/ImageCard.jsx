@@ -3,7 +3,7 @@ import React from "react";
 function ImageCard(){
     return(
         <div>
-            <img className="card" src="https://tse2.mm.bing.net/th?id=OIP.oJuOblM84fHw3g2YGEolRQHaFX&cb=iwp1&pid=Api" alt="Birdo" />
+            <img className="card w-100" src="https://tse2.mm.bing.net/th?id=OIP.oJuOblM84fHw3g2YGEolRQHaFX&cb=iwp1&pid=Api" alt="Birdo" />
         </div>
     );
 }

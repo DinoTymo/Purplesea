@@ -1,5 +1,9 @@
 import React from "react";
 import ImageCard from "./ImageCard";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-regular-svg-icons";
+import { faRepeat } from "@fortawesome/free-solid-svg-icons";
+import { faMessage } from "@fortawesome/free-regular-svg-icons";
 
 function Card() {
     return(
@@ -12,15 +16,15 @@ function Card() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ullam temporibus doloribus voluptatum delectus officia veniam modi rerum possimus, quos tempore. Provident velit blanditiis temporibus natus voluptas fugiat consequuntur rem.</p>
                     <ImageCard />
                 </div>
-                <div className="card-footer d-flex justify-content-center">
-                    <button className="btn btn-primary">
-                        like
+                <div className="card-footer d-flex justify-content-around">
+                    <button className="btn btn-outline-primary">
+                        <FontAwesomeIcon icon={faMessage} />
                     </button>
                     <button className="btn btn-outline-primary">
-                        repost
+                        <FontAwesomeIcon icon={faRepeat} />
                     </button>
                     <button className="btn btn-outline-primary">
-                        comment
+                        <FontAwesomeIcon icon={faHeart} />
                     </button>
                 </div>
             </div>
