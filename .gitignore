@@ -1,2 +1,4 @@
 node_modules
-public/bootstrap.css*
+build
+public/styles/bootstrap.css*
+public/styles/bootstrap-icons.css*
