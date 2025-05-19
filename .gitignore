@@ -1,3 +1,5 @@
 node_modules
 build
-public/bootstrap.css*
+public/styles/bootstrap.css*
+public/styles/bootstrap-icons.css*
+package-lock.json
