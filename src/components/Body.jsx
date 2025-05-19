@@ -1,11 +1,25 @@
 import React from "react";
-import Navbar from "./navbar";
+import Header from "./header";
 import Card from "./Card";
 
 function Body() {
     return(
         <div>
-            <Navbar />
+            <Header />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
             <Card />
         </div>
     )
