@@ -19,3 +19,13 @@ body {
   justify-content: space-between;
   border-bottom: none !important;
 }
+
+.new-post-dialogue-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-post-dialogue-footer > * {
+  display: flex;
+  justify-content: space-around;
+}
