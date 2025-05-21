@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/bootstrap-icons.css";
 import "material-symbols/outlined.css";
 
-function OptionsBar() {
+function Footer() {
   return (
     <div className="options-bar card-footer">
       <div className="attachmentPicker">
@@ -18,4 +18,4 @@ function OptionsBar() {
   );
 }
 
-export default OptionsBar;
+export default Footer;

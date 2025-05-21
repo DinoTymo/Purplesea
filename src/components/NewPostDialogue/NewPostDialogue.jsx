@@ -1,11 +1,13 @@
 import React from "react";
-import OptionsBar from "./OptionsBar";
+import Footer from "./Footer";
+import Header from "./Header";
 
 function NewPostDialogue() {
   return (
     <div className="new-post-dialogue card text-bg-dark border border-dark-subtle">
+      <Header />
       Lorem ipsum dolor sit amet.
-      <OptionsBar />
+      <Footer />
     </div>
   );
 }
