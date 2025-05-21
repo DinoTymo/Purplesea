@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/bootstrap-icons.css";
-import GifIcon from "./icons/GifIcon";
+import 'material-symbols/outlined.css';
 
 function OptionsBar() {
   return (
     <div className="options-bar">
       <div className="attachmentPicker">
-        <i class="bi bi-image text-primary"></i>
-        <i class="bi bi-film text-primary"></i>
-        <GifIcon width="200" height="200" />
+        <i class="bi bi-image text-primary fs-4"></i>
+        <i class="bi bi-film text-primary fs-4"></i>
+        <span class="material-symbols-outlined text-primary fs-2">gif_box</span>
       </div>
 
       <div className="contentOptions"></div>

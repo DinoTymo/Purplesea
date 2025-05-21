@@ -1,0 +1,6 @@
+.material-symbols-outlined {
+  /* Aligns Material Icons to Bootstrap Icons*/
+  vertical-align: text-bottom;
+  position: relative;
+  top: 2px;
+}
