@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../public/styles/bootstrap-icons.css";
+import "../styles/bootstrap-icons.css";
 import GifIcon from "./icons/GifIcon";
 
 function OptionsBar() {
