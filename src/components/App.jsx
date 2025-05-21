@@ -1,5 +1,5 @@
 import React from "react";
-import NewPostDialogue from "./NewPostDialogue";
+import NewPostDialogue from "./NewPostDialogue/NewPostDialogue";
 
 function App() {
   return (
