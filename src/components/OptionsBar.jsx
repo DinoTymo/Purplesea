@@ -4,7 +4,7 @@ import 'material-symbols/outlined.css';
 
 function OptionsBar() {
   return (
-    <div className="options-bar">
+    <div className="options-bar card-footer">
       <div className="attachmentPicker">
         <i class="bi bi-image text-primary fs-4"></i>
         <i class="bi bi-film text-primary fs-4"></i>
