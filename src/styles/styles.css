@@ -1,3 +1,7 @@
+body {
+  background-color: #161e27;
+}
+
 .material-symbols-outlined {
   /* Aligns Material Icons to Bootstrap Icons*/
   vertical-align: text-bottom;
@@ -10,6 +14,8 @@
   min-width: 300px;
 }
 
-body {
-  background-color: #161e27;
+.new-post-dialogue-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: none !important;
 }
