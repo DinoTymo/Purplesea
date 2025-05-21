@@ -4,3 +4,12 @@
   position: relative;
   top: 2px;
 }
+
+.new-post-dialogue {
+  width: 33%;
+  min-width: 300px;
+}
+
+body {
+  background-color: #161e27;
+}
