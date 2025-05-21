@@ -4,7 +4,7 @@ import "material-symbols/outlined.css";
 
 function Footer() {
   return (
-    <div className="options-bar card-footer">
+    <div className="new-post-dialogue-footer card-footer">
       <div className="attachmentPicker">
         <i className="bi bi-image text-primary fs-4"></i>
         <i className="bi bi-film text-primary fs-4"></i>
