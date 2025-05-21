@@ -1,8 +1,9 @@
 import React from "react";
 
 function GifIcon({ width, height }) {
+  let viewBox = "0 0 " + width + " " + height;
   return (
-    <svg fill="none" viewBox="0 0 {width} {height}" width="{width}" height="{height}">
+    <svg fill="none" viewBox={viewBox} width={width} height={height}>
       <path
         fill="hsl(211, 99%, 56%)"
         fill-rule="evenodd"

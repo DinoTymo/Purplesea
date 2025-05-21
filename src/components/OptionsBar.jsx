@@ -8,7 +8,7 @@ function OptionsBar() {
       <div className="attachmentPicker">
         <i class="bi bi-image text-primary"></i>
         <i class="bi bi-film text-primary"></i>
-        <GifIcon width="2" height="2" />
+        <GifIcon width="200" height="200" />
       </div>
 
       <div className="contentOptions"></div>
