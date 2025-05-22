@@ -1,4 +1,5 @@
 import React from "react";
+import InputCounter from "./InputCounter";
 import "../../styles/bootstrap-icons.css";
 import "material-symbols/outlined.css";
 
@@ -16,7 +17,10 @@ function Footer() {
         </span>
       </div>
 
-      <div className="contentOptions w-25">Englisch 230 O</div>
+      <div className="contentOptions w-25">
+        Englisch
+        <InputCounter />
+      </div>
     </div>
   );
 }
