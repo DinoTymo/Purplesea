@@ -26,6 +26,22 @@ body {
   border-bottom: none !important;
 }
 
+.new-post-dialogue-body {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.new-post-dialogue-input {
+  color: white;
+  width: calc(100% - 58px);
+  height: 9rem;
+  border: none;
+  outline: none;
+  background: none;
+  resize: none;
+}
+
 .new-post-dialogue-footer {
   display: flex;
   justify-content: space-between;

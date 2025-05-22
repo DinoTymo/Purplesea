@@ -4,11 +4,11 @@ import ProfilePic from "../ProfilePic";
 function Body() {
   return (
     <div className="new-post-dialogue-body card-body">
-      <ProfilePic />
-      {/*
-      Profile picture
-      What's up?
-      */}
+      <ProfilePic size="50" />
+      <textarea
+        className="new-post-dialogue-input"
+        placeholder="What's up?"
+      ></textarea>
       {/* Anybody can interact */}
     </div>
   );
