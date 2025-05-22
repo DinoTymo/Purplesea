@@ -1,14 +1,13 @@
 import React from "react";
 import ProfilePic from "../ProfilePic";
+import PostInput from "../PostInput";
 
 function Body() {
   return (
     <div className="new-post-dialogue-body card-body">
       <ProfilePic size="50" />
-      <textarea
-        className="new-post-dialogue-input"
-        placeholder="What's up?"
-      ></textarea>
+      <PostInput />
+
       {/* Anybody can interact */}
     </div>
   );
