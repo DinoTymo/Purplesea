@@ -2,12 +2,11 @@ import React from "react";
 import ProfilePic from "../ProfilePic";
 import PostInput from "./PostInput";
 
-function Body() {
+function Body({ handleInputChange, postText }) {
   return (
     <div className="new-post-dialogue-body card-body">
       <ProfilePic size="50" />
-      <PostInput />
-
+      <PostInput changeHandler={handleInputChange} value={postText} />
       {/* Anybody can interact */}
     </div>
   );

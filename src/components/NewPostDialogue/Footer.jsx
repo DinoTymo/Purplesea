@@ -3,7 +3,7 @@ import InputCounter from "./InputCounter";
 import "../../styles/bootstrap-icons.css";
 import "material-symbols/outlined.css";
 
-function Footer() {
+function Footer({ charCount, setPostState }) {
   return (
     <div className="new-post-dialogue-footer card-footer">
       <div className="attachmentPicker w-25">
@@ -19,7 +19,7 @@ function Footer() {
 
       <div className="contentOptions w-25">
         Englisch
-        <InputCounter />
+        <InputCounter charCount={charCount} setPostState={setPostState} />
       </div>
     </div>
   );
