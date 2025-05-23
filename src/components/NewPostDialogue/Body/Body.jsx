@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../ProfilePic";
+import ProfilePic from "../../ProfilePic";
 import PostInput from "./PostInput";
 
 function Body({ handleInputChange, postText }) {
