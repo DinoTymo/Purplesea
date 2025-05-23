@@ -8,7 +8,7 @@ function LanguagePicker() {
 
   return (
     <>
-      {dropupShown && <LanguagePickerList />}
+      {dropupShown && <LanguagePickerList setLanguage={setLanguage} />}
       <LanguagePickerButton
         selectedLanguage={language}
         dropupShown={dropupShown}
