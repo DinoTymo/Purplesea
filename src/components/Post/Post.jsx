@@ -36,8 +36,6 @@ function Post(props) {
     );
 }
 
-export default Post;
-
 function randomNumbersLikes(){
     let number = Math.floor(Math.random() * 4501);
     return number;
@@ -52,3 +50,6 @@ function randomNumbersComments(){
     let number = Math.floor(Math.random() * 1281);
     return number;
 }
+
+
+export default Post;
