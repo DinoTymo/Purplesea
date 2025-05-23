@@ -1,5 +1,6 @@
 import React from "react";
 import InputCounter from "./InputCounter";
+import LanguagePicker from "./LanguagePicker";
 import "../../styles/bootstrap-icons.css";
 import "material-symbols/outlined.css";
 
@@ -18,7 +19,7 @@ function Footer({ charCount, setPostState }) {
       </div>
 
       <div className="contentOptions w-25">
-        Englisch
+        <LanguagePicker />
         <InputCounter charCount={charCount} setPostState={setPostState} />
       </div>
     </div>
