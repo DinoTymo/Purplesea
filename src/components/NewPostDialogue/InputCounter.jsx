@@ -19,7 +19,7 @@ function InputCounter({ charCount, setPostState }) {
   }
 
   return (
-    <div className="InputCounter ">
+    <div className="InputCounter lh-lg">
       <span className={hasLimitBeenExceeded() ? "text-danger" : undefined}>
         {remainingChars}
       </span>
