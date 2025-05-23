@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import InputCounter from "./InputCounter";
-import LanguagePicker from "./LanguagePicker";
+import LanguagePickerButton from "./LanguagePicker/LanguagePickerButton";
+import LanguagePicker from "./LanguagePicker/LanguagePicker";
 import "../../styles/bootstrap-icons.css";
 import "material-symbols/outlined.css";
 
@@ -18,8 +19,10 @@ function Footer({ charCount, setPostState }) {
         </span>
       </div>
 
+      <LanguagePicker />
+        <!-- TODO: fix justify-content -->
+
       <div className="contentOptions w-25">
-        <LanguagePicker />
         <InputCounter charCount={charCount} setPostState={setPostState} />
       </div>
     </div>
