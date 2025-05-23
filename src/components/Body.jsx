@@ -1,12 +1,10 @@
 import React from "react";
-import Header from "./header";
 import Card from "./Card";
 
 function Body() {
     return(
         <div>
-            <Header />
-            <Card />
+            <Card username="urmum" handle="urmum@psea.social" timestamp="2 Std."/>
             <Card />
             <Card />
             <Card />
@@ -24,5 +22,6 @@ function Body() {
         </div>
     )
 }
+
 
 export default Body;
