@@ -1,12 +1,12 @@
 import React from "react";
 import ImageCard from "./ImageCard";
-import Avatar from "./ProfilePic/Avatar";
+import Avatar from "../ProfilePic/Avatar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { faRepeat } from "@fortawesome/free-solid-svg-icons";
 import { faMessage } from "@fortawesome/free-regular-svg-icons";
 
-function Card() {
+function Post() {
     return(
         <div className="card mx-auto p-2">
             <div className="card-header post-creator d-flex flex-row mb-3">
@@ -36,4 +36,4 @@ function Card() {
     );
 }
 
-export default Card;
+export default Post;
