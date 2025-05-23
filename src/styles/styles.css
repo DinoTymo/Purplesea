@@ -1,0 +1,54 @@
+* {
+  --primary: #7a16d6;
+  --gray-900: #161e27; /* background color */
+  --dark-border-subtle: #364b61;
+}
+
+body {
+  background-color: var(--gray-900);
+}
+
+.material-symbols-outlined {
+  /* Aligns Material Icons to Bootstrap Icons*/
+  vertical-align: text-bottom;
+  position: relative;
+  top: 2px;
+}
+
+.new-post-dialogue {
+  width: 33%;
+  min-width: 300px;
+}
+
+.new-post-dialogue-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: none !important;
+}
+
+.new-post-dialogue-body {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.new-post-dialogue-input {
+  color: white;
+  width: calc(100% - 58px);
+  height: 9rem;
+  border: none;
+  outline: none;
+  background: none;
+  resize: none;
+}
+
+.new-post-dialogue-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--dark-border-subtle) !important;
+}
+
+.new-post-dialogue-footer > * {
+  display: flex;
+  justify-content: space-around;
+}
