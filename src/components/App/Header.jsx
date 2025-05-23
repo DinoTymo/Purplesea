@@ -2,8 +2,8 @@ import React from "react";
 
 function Header() {
     return(
-        <div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div> 
+            <nav className="navbar navbar-expand-lg border border-dark-subtle text-bg-dark">
                 <div className="container-fluid">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
