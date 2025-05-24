@@ -24,7 +24,12 @@ function App() {
           </div>
         </div>
       </div>
-      {isDialogVisible && <NewPostDialog />}
+      {isDialogVisible && (
+        <NewPostDialog
+          isDialogVisible={isDialogVisible}
+          setDialogVisible={setDialogVisible}
+        />
+      )}
     </>
   );
 }
