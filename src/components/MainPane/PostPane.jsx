@@ -5,6 +5,8 @@ function PostPane() {
   return (
     <div className="post-pane">
       <Post />
+      <Post />
+      <Post />
     </div>
   );
 }
