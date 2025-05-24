@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/bootstrap-icons.css";
+import "../../../../styles/bootstrap-icons.css";
 import "material-symbols/outlined.css";
 
 function AttachmentPicker() {

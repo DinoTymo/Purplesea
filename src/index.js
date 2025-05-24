@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom/client";
-import App from "./components/App/App";
+import App from "./components/App";
 import "./styles/bootstrap.css";
 import "./styles/bootstrap-icons.css";
 import "./styles/styles.css";
