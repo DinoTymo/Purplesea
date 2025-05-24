@@ -8,7 +8,7 @@ import { faMessage } from "@fortawesome/free-regular-svg-icons";
 
 function Post() {
   return (
-    <div className="card mx-auto p-2">
+    <div className="card mx-auto p-2 text-bg-dark border border-dark-subtle">
       <div className="card-header post-creator d-flex flex-row mb-3">
         <Avatar /> <strong>&nbsp;&nbsp;&nbsp;username</strong>{" "}
         <p>&nbsp;handle</p> <p>&nbsp;timestamp</p>

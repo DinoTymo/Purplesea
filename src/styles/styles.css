@@ -8,7 +8,7 @@ body {
   background-color: var(--gray-900);
 }
 
-.card{
+.card nav{
   width: 37rem; 
 }
 
