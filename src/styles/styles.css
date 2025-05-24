@@ -68,3 +68,7 @@ body {
   color: #eee !important;
   font-weight: bolder;
 }
+
+.border-bottom{
+  width: 200px;
+}
