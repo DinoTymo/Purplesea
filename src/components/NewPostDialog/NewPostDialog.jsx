@@ -3,7 +3,7 @@ import Header from "./Header";
 import Body from "./Body/Body";
 import Footer from "./Footer/Footer";
 
-function NewPostDialogue() {
+function NewPostDialog() {
   const [postText, setPostText] = useState("");
   const [charCount, setCharCount] = useState(0);
   const [postState, setPostState] = useState("disabled");
@@ -15,7 +15,7 @@ function NewPostDialogue() {
   }
 
   return (
-    <div className="new-post-dialogue card text-bg-dark border border-dark-subtle">
+    <div className="new-post-dialog card text-bg-dark border border-dark-subtle">
       <Header postState={postState} charCount={charCount} />
       <Body handleInputChange={handleInputChange} postText={postText} />
       <Footer charCount={charCount} setPostState={setPostState} />
@@ -23,4 +23,4 @@ function NewPostDialogue() {
   );
 }
 
-export default NewPostDialogue;
+export default NewPostDialog;
