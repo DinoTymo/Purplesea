@@ -11,26 +11,31 @@ import { faGear } from "@fortawesome/free-solid-svg-icons";
 
 import ProfilePic from "../ProfilePic";
 import NewPostButton from "../NewPostDialog/NewPostButton";
+import { Link } from "react-router-dom";
 
 function MenuPane({ isDialogVisible, setDialogVisible }) {
   return (
     <div className="menu-pane sticky-top">
       <ProfilePic size="48" />
       <br />
+      <Link to="/" className="link-underline link-underline-opacity-0">
+        <FontAwesomeIcon icon={faHouse} className="sideIcons" />{" "}
+        <strong>&nbsp;Home</strong>
+      </Link>
+      <br />
       <a href="#" className="link-underline link-underline-opacity-0">
-        <FontAwesomeIcon icon={faHouse} className="sideIcons" /> <strong>&nbsp;Home</strong>
+        <FontAwesomeIcon icon={faMagnifyingGlass} className="sideIcons" />{" "}
+        &nbsp;Explore
       </a>
       <br />
       <a href="#" className="link-underline link-underline-opacity-0">
-        <FontAwesomeIcon icon={faMagnifyingGlass} className="sideIcons" /> &nbsp;Explore
+        <FontAwesomeIcon icon={faBell} className="sideIcons" />{" "}
+        &nbsp;Notifications
       </a>
       <br />
       <a href="#" className="link-underline link-underline-opacity-0">
-        <FontAwesomeIcon icon={faBell} className="sideIcons" /> &nbsp;Notifications
-      </a>
-      <br />
-      <a href="#" className="link-underline link-underline-opacity-0">
-        <FontAwesomeIcon icon={faCommentDots} className="sideIcons" /> &nbsp;Chat
+        <FontAwesomeIcon icon={faCommentDots} className="sideIcons" />{" "}
+        &nbsp;Chat
       </a>
       <br />
       <a href="#" className="link-underline link-underline-opacity-0">
@@ -41,9 +46,10 @@ function MenuPane({ isDialogVisible, setDialogVisible }) {
         <FontAwesomeIcon icon={faListUl} className="sideIcons" /> &nbsp;Lists
       </a>
       <br />
-      <a href="#" className="link-underline link-underline-opacity-0">
-        <FontAwesomeIcon icon={faCircleUser} className="sideIcons" /> &nbsp;Profile
-      </a>
+      <Link to="/profile" className="link-underline link-underline-opacity-0">
+        <FontAwesomeIcon icon={faCircleUser} className="sideIcons" />{" "}
+        &nbsp;Profile
+      </Link>
       <br />
       <a href="#" className="link-underline link-underline-opacity-0">
         <FontAwesomeIcon icon={faGear} className="sideIcons" /> &nbsp;Settings

@@ -1,7 +1,6 @@
 import React from "react";
-import ProfilePic from "../../ProfilePic";
 
-function Banner(props) {
+function Banner() {
   return (
     <img
       className="user-banner w-100"
