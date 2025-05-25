@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import ImageCard from "./ImageCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
@@ -11,24 +11,24 @@ function Post(props) {
 
   const [commented, setCommented] = useState(false);
   const [commentCount, setCommentCount] = useState(props.comments);
-  
+
   const [reposted, setReposted] = useState(false);
   const [repostCount, setRepostCount] = useState(props.reposts);
 
   const [liked, setLiked] = useState(false);
   const [likeCount, setLikeCount] = useState(props.likes);
 
-  useEffect(()=>{
+  useEffect(() => {
     fetch("/data/users.json")
-      .then((response)=>
-        response.json()
-      )
-      .then((userResults)=>{
-        const foundUser = userResults.find((userResult) => userResult.handle === props.handle);
+      .then((response) => response.json())
+      .then((userResults) => {
+        const foundUser = userResults.find(
+          (userResult) => userResult.handle === props.handle,
+        );
         setUser(foundUser);
-      });        
+      });
   }, []);
-  
+
   const handleRepostClick = () => {
     if (reposted) {
       setRepostCount(repostCount - 1);
@@ -59,33 +59,44 @@ function Post(props) {
     }
   };
 
-  if(!user){
+  if (!user) {
     return null;
-  } 
-
+  }
+  // TODO: Post in einzelne Komponenten unterteilen!!
+  // TODO: Username etc.
   return (
-    <div className="card mx-auto p-2 text-bg-dark border border-dark-subtle">
+    <div className="post card mx-auto p-2 text-bg-dark border-dark-subtle">
       <div className="card-header post-creator d-flex flex-row mb-3">
-        <ProfilePic handle={props.handle} size="42"/> <strong>&nbsp;&nbsp;&nbsp;{props.username}</strong>
+        <ProfilePic handle={props.handle} size="42" />{" "}
+        <strong>&nbsp;&nbsp;&nbsp;{props.username}</strong>
         <p>&nbsp;{props.handle}</p> <p>&nbsp;{props.timestamp}</p>
       </div>
       <div className="card-body">
         <div className="card-text">
-          <p>
-            {props.content.text}
-          </p>
-          {props.content.attachment && <ImageCard src={props.content.attachment}/>}
+          <p>{props.content.text}</p>
+          {props.content.attachment && (
+            <ImageCard src={props.content.attachment} />
+          )}
         </div>
         <div className="card-footer d-flex justify-content-around">
-          <button className={`btn btn-outline-primary d-flex${commented ? " active" : ""}`} onClick={handleCommentClick}>
+          <button
+            className={`btn btn-outline-primary d-flex${commented ? " active" : ""}`}
+            onClick={handleCommentClick}
+          >
             <FontAwesomeIcon icon={faMessage} />
             <div className="commentCount">{commentCount}</div>
           </button>
-          <button className={`btn btn-outline-primary d-flex${reposted ? " active" : ""}`} onClick={handleRepostClick}>
+          <button
+            className={`btn btn-outline-primary d-flex${reposted ? " active" : ""}`}
+            onClick={handleRepostClick}
+          >
             <FontAwesomeIcon icon={faRepeat} />
             <div className="repostCount">{repostCount}</div>
           </button>
-          <button className={`btn btn-outline-primary d-flex ${liked ? " active" : ""}`} onClick={handleLikeClick}>
+          <button
+            className={`btn btn-outline-primary d-flex ${liked ? " active" : ""}`}
+            onClick={handleLikeClick}
+          >
             <FontAwesomeIcon icon={faHeart} />
             <div className="likeCount">{likeCount}</div>
           </button>
