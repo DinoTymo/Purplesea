@@ -21,7 +21,8 @@ function PostPane() {
     <div className="post-pane">
       {posts.map((post) => (
         <Post
-          key={self.crypto.randomUUID()}
+          key={post.id}
+          id={post.id}
           handle={post.user}
           timestamp={post.timestamp}
           content={post.content}

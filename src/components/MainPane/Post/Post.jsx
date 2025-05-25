@@ -7,6 +7,7 @@ function Post(props) {
     <div className="post card mx-auto p-2 text-bg-dark border-dark-subtle">
       <PostHeader handle={props.handle} timestamp={props.timestamp} />
       <PostBody
+        id={props.id}
         comments={props.comments}
         likes={props.likes}
         reposts={props.reposts}
