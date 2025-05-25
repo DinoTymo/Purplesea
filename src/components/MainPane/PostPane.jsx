@@ -1,37 +1,37 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Post from "./Post/Post";
 
-function PostPane() {  
+function PostPane() {
   const [posts, setPost] = useState(null);
-  useEffect(()=>{
+  useEffect(() => {
     fetch("http://localhost:3001/posts")
-      .then((response)=>
-        response.json()
-      )
-      .then((postResults)=>{
+      .then((response) => response.json())
+      .then((postResults) => {
         setPost(postResults);
-      })
+      });
   }, []);
-  
-  if(!posts){
-    return null;
-  }  
 
-  return (    
+  if (!posts) {
+    return null;
+  }
+
+  posts.sort((a, b) => b.timestamp - a.timestamp);
+
+  return (
     <div className="post-pane">
       {posts.map((post) => (
-        <Post 
+        <Post
           key={self.crypto.randomUUID()}
-          handle={post.user} 
-          timestamp={post.timestamp} 
-          content={post.content} 
-          comments={post.comments} 
-          reposts={post.reposts} 
-          likes={post.likes} 
+          handle={post.user}
+          timestamp={post.timestamp}
+          content={post.content}
+          comments={post.comments}
+          reposts={post.reposts}
+          likes={post.likes}
         />
       ))}
     </div>
-  );  
+  );
 }
 
 export default PostPane;
