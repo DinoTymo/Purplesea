@@ -2,9 +2,9 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg text-bg-dark border border-dark-subtle sticky-top">
+    <nav className="navbar navbar-expand-lg text-bg-dark sticky-top">
       <div className="container-fluid">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav" id="specialNavbar">
           <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="#">
               Discover

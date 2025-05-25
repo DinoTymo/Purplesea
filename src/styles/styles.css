@@ -8,13 +8,22 @@ body {
   background-color: var(--gray-900);
 }
 
+#specialNavbar{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .user-banner {
   display: flex;
   justify-content: center;
 }
 
 .material-symbols-outlined {
-  /* Aligns Material Icons to Bootstrap Icons*/
   vertical-align: text-bottom;
   position: relative;
   top: 2px;
@@ -86,7 +95,7 @@ body {
 
 .logoBar {
   height: auto;
-  width: 40px;
+  width: 30px;
   display: flex;
   justify-content: center;
 }

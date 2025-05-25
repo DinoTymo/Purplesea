@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import SearchLinks from "./SearchLinks";
+import SupportLinks from "./SupportLinks";
 
 function SearchPane() {
   return (
@@ -23,36 +25,11 @@ function SearchPane() {
             style={{ background: "#161e27", color: "#eee" }}
           />
         </div>
-        <br />
-        <a href="#" className="link-underline link-underline-opacity-0">
-          Discover
-        </a>
-        <br />
-        <a href="#" className="link-underline link-underline-opacity-0">
-          Following
-        </a>
-        <br />
-        <a href="#" className="link-underline link-underline-opacity-0">
-          More Feeds
-        </a>
-        <div className="hr"></div>
-        <br />
-        <a href="#" className="link-underline link-underline-opacity-0">
-          Feedback
-        </a>
-        <br />
-        <a href="#" className="link-underline link-underline-opacity-0">
-          Datenschutz
-        </a>
-        <br />
-        <a href="#" className="link-underline link-underline-opacity-0">
-          Bedingungen
-        </a>
-        <br />
-        <a href="#" className="link-underline link-underline-opacity-0">
-          Hilfe
-        </a>
       </div>
+      <SearchLinks />
+      <div className="hr"></div>
+      <br />
+      <SupportLinks />
     </div>
   );
 }

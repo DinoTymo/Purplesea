@@ -22,22 +22,22 @@ function MenuPane({ isDialogVisible, setDialogVisible }) {
       <ProfilePic handle="hans.kisten-und-co-kg.de" size="48" />
       <br />
       <Link to="/" className="link-underline link-underline-opacity-0">
-        <FontAwesomeIcon icon={faHouse} className="sideIcons" />{" "}
+        <FontAwesomeIcon icon={faHouse} className="sideIcons" />
         <strong>&nbsp;Home</strong>
       </Link>
       <br />
       <a href="#" className="link-underline link-underline-opacity-0">
-        <FontAwesomeIcon icon={faMagnifyingGlass} className="sideIcons" />{" "}
+        <FontAwesomeIcon icon={faMagnifyingGlass} className="sideIcons" />
         &nbsp;Explore
       </a>
       <br />
       <a href="#" className="link-underline link-underline-opacity-0">
-        <FontAwesomeIcon icon={faBell} className="sideIcons" />{" "}
+        <FontAwesomeIcon icon={faBell} className="sideIcons" />
         &nbsp;Notifications
       </a>
       <br />
       <a href="#" className="link-underline link-underline-opacity-0">
-        <FontAwesomeIcon icon={faCommentDots} className="sideIcons" />{" "}
+        <FontAwesomeIcon icon={faCommentDots} className="sideIcons" />
         &nbsp;Chat
       </a>
       <br />
@@ -50,7 +50,7 @@ function MenuPane({ isDialogVisible, setDialogVisible }) {
       </a>
       <br />
       <Link to="/profile" className="link-underline link-underline-opacity-0">
-        <FontAwesomeIcon icon={faCircleUser} className="sideIcons" />{" "}
+        <FontAwesomeIcon icon={faCircleUser} className="sideIcons" />
         &nbsp;Profile
       </Link>
       <br />
