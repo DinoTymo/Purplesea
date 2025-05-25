@@ -89,3 +89,10 @@ body {
 .sideIcons{
   color: white;
 }
+
+.logoBar{
+  height: auto;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+}
