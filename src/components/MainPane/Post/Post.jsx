@@ -3,14 +3,13 @@ import PostHeader from "./PostHeader";
 import PostBody from "./PostBody";
 
 function Post(props) {
-
   const date = new Date(props.timestamp * 1000);
   const formatedDate = date.toLocaleString("de-DE", {
     day: "2-digit",
     month: "2-digit",
     year: "numeric",
     hour: "2-digit",
-    minute: "2-digit"
+    minute: "2-digit",
   });
 
   return (
