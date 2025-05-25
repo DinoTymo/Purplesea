@@ -1,14 +1,10 @@
 import React from "react";
-import LogoBar from "./LogoBar";
-import Navbar from "./Navbar";
-import PostPane from "./PostPane";
+import { Outlet } from "react-router-dom";
 
 function MainPane() {
   return (
-    <div className="main-pane">
-      <LogoBar />
-      <Navbar />
-      <PostPane />
+    <div className="main-pane mx-4 border border-dark-subtle">
+      <Outlet />
     </div>
   );
 }

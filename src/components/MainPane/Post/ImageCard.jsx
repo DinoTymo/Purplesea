@@ -1,11 +1,15 @@
 import React from "react";
 
-function ImageCard(){
-    return(
-        <div>
-            <img className="card w-100" src="https://tse2.mm.bing.net/th?id=OIP.oJuOblM84fHw3g2YGEolRQHaFX&cb=iwp1&pid=Api" alt="Birdo" />
-        </div>
-    );
+function ImageCard(props) {
+  return (
+    <div>
+      <img
+        className="card w-100"
+        src={props.src}
+        alt="The user hasn't provided any alt-text."
+      />
+    </div>
+  );
 }
 
 export default ImageCard;
