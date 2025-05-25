@@ -1,9 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 function SearchPane() {
   return (
     <div className="search-pane">
       <div className="search-bar">
+        <FontAwesomeIcon icon={faMagnifyingGlass} className="sideIcon" />
         <input type="text" placeholder="Search" />
         <br />
         <a href="#">Discover</a>

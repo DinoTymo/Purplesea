@@ -10,7 +10,7 @@ function Post(props) {
   return (
     <div className="card mx-auto p-2 text-bg-dark border border-dark-subtle">
       <div className="card-header post-creator d-flex flex-row mb-3">
-        <Avatar /> <strong>&nbsp;&nbsp;&nbsp;{props.username}</strong>{" "}
+        <Avatar /> <strong>&nbsp;&nbsp;&nbsp;{props.username}</strong>
         <p>&nbsp;{props.handle}</p> <p>&nbsp;{props.timestamp}</p>
       </div>
       <div className="card-body">
