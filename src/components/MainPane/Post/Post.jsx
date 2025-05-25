@@ -3,7 +3,6 @@ import PostHeader from "./PostHeader";
 import PostBody from "./PostBody";
 
 function Post(props) {
-  // TODO: Username etc.
 
   const date = new Date(props.timestamp * 1000);
   const formattedDate = date.toLocaleString("de-DE", {
@@ -16,12 +15,9 @@ function Post(props) {
 
   return (
     <div className="post card mx-auto p-2 text-bg-dark border-dark-subtle">
-      <PostHeader
-        handle={props.handle}
-        username={props.username}
-        timestamp={formattedDate}
-      />
+      <PostHeader handle={props.handle} timestamp={formatedDate} />
       <PostBody
+        id={props.id}
         comments={props.comments}
         likes={props.likes}
         reposts={props.reposts}
