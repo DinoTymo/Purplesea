@@ -8,7 +8,7 @@ body {
   background-color: var(--gray-900);
 }
 
-.card, nav, .userBanner{
+.card nav, .userBanner{
   display: flex;
   justify-content: center;
   width: 37rem; 
