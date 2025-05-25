@@ -5,9 +5,9 @@ import PostInput from "./PostInput";
 function Body({ handleInputChange, postText }) {
   return (
     <div className="new-post-dialog-body card-body">
-      <ProfilePic size="50" />
+      <ProfilePic handle="hans.kisten-und-co-kg.de" size="50" />
       <PostInput changeHandler={handleInputChange} value={postText} />
-      {/* Anybody can interact */}
+      {/* Anybody can interact-Btn */}
     </div>
   );
 }

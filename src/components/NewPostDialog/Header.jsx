@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header({ postState, setDialogVisible, isDialogVisible }) {
+function Header({ postState, postPost, setDialogVisible, isDialogVisible }) {
   return (
     <div className="new-post-dialog-header card-header">
       <button
@@ -16,6 +16,9 @@ function Header({ postState, setDialogVisible, isDialogVisible }) {
       <button
         className="btn btn-primary rounded-pill fw-bold"
         disabled={postState === "disabled"}
+        onClick={() => {
+          postPost();
+        }}
       >
         Post
       </button>
