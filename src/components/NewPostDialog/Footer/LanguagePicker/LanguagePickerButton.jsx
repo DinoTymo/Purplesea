@@ -7,7 +7,7 @@ function LanguagePickerButton({
 }) {
   return (
     <button
-      className="language-picker btn text-primary fw-bold lh-sm"
+      className="language-picker btn text-primary fw-bold lh-sm border-0"
       type="button"
       onClick={() => {
         setDropupShown(!dropupShown);

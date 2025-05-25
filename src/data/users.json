@@ -1,0 +1,234 @@
+[
+  {
+    "handle": "emma.psea.social",
+    "name": "Emma Johnson",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Emma+Johnson",
+    "banner": "https://picsum.photos/seed/emma/600/150",
+    "description": "Coffee lover, bookworm, and passionate traveler. ✈️",
+    "followers": 2900
+  },
+  {
+    "handle": "liam.psea.social",
+    "name": "Liam Schmidt",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Liam+Schmidt",
+    "banner": "https://picsum.photos/seed/liam/600/150",
+    "description": "Coding my way through life. Python, JS, and a lot of caffeine. ☕",
+    "followers": 4100
+  },
+  {
+    "handle": "olivia.yogaworld.net",
+    "name": "Olivia Novak",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Olivia+Novak",
+    "banner": "https://picsum.photos/seed/olivia/600/150",
+    "description": "Yoga enthusiast and wellness coach. 🌿",
+    "followers": 2200
+  },
+  {
+    "handle": "noah.psea.social",
+    "name": "Noah Becker",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Noah+Becker",
+    "banner": "https://picsum.photos/seed/noah/600/150",
+    "description": "Nature photographer capturing the wild beauty of our planet. 📸",
+    "followers": 3700
+  },
+  {
+    "handle": "sophia.psea.social",
+    "name": "Sophia Fischer",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Sophia+Fischer",
+    "banner": "https://picsum.photos/seed/sophia/600/150",
+    "description": "Architect with a passion for sustainable design. 🌱",
+    "followers": 1800
+  },
+  {
+    "handle": "jack.jackmuellermusic.com",
+    "name": "Jack Müller",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Jack+Müller",
+    "banner": "https://picsum.photos/seed/jack/600/150",
+    "description": "Music producer and DJ. Let’s make some noise! 🎶",
+    "followers": 5000
+  },
+  {
+    "handle": "mia.psea.social",
+    "name": "Mia Wagner",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Mia+Wagner",
+    "banner": "https://picsum.photos/seed/mia/600/150",
+    "description": "Writer & storyteller—turning thoughts into words. ✍️",
+    "followers": 3200
+  },
+  {
+    "handle": "ethan.psea.social",
+    "name": "Ethan Weber",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Ethan+Weber",
+    "banner": "https://picsum.photos/seed/ethan/600/150",
+    "description": "Sports fanatic & aspiring athlete. ⚽",
+    "followers": 2700
+  },
+  {
+    "handle": "ava.psea.social",
+    "name": "Ava Hoffmann",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Ava+Hoffmann",
+    "banner": "https://picsum.photos/seed/ava/600/150",
+    "description": "Graphic designer & digital artist. 🎨",
+    "followers": 3900
+  },
+  {
+    "handle": "benjamin.psea.social",
+    "name": "Benjamin Keller",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Benjamin+Keller",
+    "banner": "https://picsum.photos/seed/benjamin/600/150",
+    "description": "AI researcher exploring the future of technology. 🤖",
+    "followers": 5600
+  },
+  {
+    "handle": "amelia.delicious-recipes.com",
+    "name": "Amelia Schwarz",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Amelia+Schwarz",
+    "banner": "https://picsum.photos/seed/amelia/600/150",
+    "description": "Food blogger sharing tasty recipes & adventures. 🍜",
+    "followers": 4300
+  },
+  {
+    "handle": "lucas.psea.social",
+    "name": "Lucas Bauer",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Lucas+Bauer",
+    "banner": "https://picsum.photos/seed/lucas/600/150",
+    "description": "Cybersecurity specialist keeping the web safe. 🔒",
+    "followers": 3500
+  },
+  {
+    "handle": "ella.psea.social",
+    "name": "Ella Wagner",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Ella+Wagner",
+    "banner": "https://picsum.photos/seed/ella/600/150",
+    "description": "Fashion designer with a love for bold colors. 💃",
+    "followers": 2700
+  },
+  {
+    "handle": "henry.psea.social",
+    "name": "Henry Lehmann",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Henry+Lehmann",
+    "banner": "https://picsum.photos/seed/henry/600/150",
+    "description": "Entrepreneur building tomorrow’s businesses. 🚀",
+    "followers": 6500
+  },
+  {
+    "handle": "nora.planet-tomorrow.org",
+    "name": "Nora Klein",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Nora+Klein",
+    "banner": "https://picsum.photos/seed/nora/600/150",
+    "description": "Wildlife conservationist protecting nature’s wonders. 🌍",
+    "followers": 3100
+  },
+  {
+    "handle": "leo.psea.social",
+    "name": "Leo Meier",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Leo+Meier",
+    "banner": "https://picsum.photos/seed/leo/600/150",
+    "description": "Film buff & aspiring director. 🎬",
+    "followers": 4400
+  },
+  {
+    "handle": "chloe.psea.social",
+    "name": "Chloe Bauer",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Chloe+Bauer",
+    "banner": "https://picsum.photos/seed/chloe/600/150",
+    "description": "Startup founder solving real-world problems. 🌟",
+    "followers": 5800
+  },
+  {
+    "handle": "samuel.bot.tech",
+    "name": "Samuel Hartmann",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Samuel+Hartmann",
+    "banner": "https://picsum.photos/seed/samuel/600/150",
+    "description": "Robotics engineer making machines smarter. 🤖",
+    "followers": 4300
+  },
+  {
+    "handle": "zoe.psea.social",
+    "name": "Zoe Richter",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Zoe+Richter",
+    "banner": "https://picsum.photos/seed/zoe/600/150",
+    "description": "Biologist researching marine life. 🦑",
+    "followers": 2900
+  },
+  {
+    "handle": "adam.psea.social",
+    "name": "Adam Wagner",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Adam+Wagner",
+    "banner": "https://picsum.photos/seed/adam/600/150",
+    "description": "Podcaster sharing stories that matter. 🎙️",
+    "followers": 3200
+  },
+  {
+    "handle": "grace.psea.social",
+    "name": "Grace Neumann",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Grace+Neumann",
+    "banner": "https://picsum.photos/seed/grace/600/150",
+    "description": "Artist experimenting with digital illustrations. 🎨",
+    "followers": 4100
+  },
+  {
+    "handle": "max.psea.social",
+    "name": "Max Becker",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Max+Becker",
+    "banner": "https://picsum.photos/seed/max/600/150",
+    "description": "AI developer pushing tech boundaries. 💻",
+    "followers": 5300
+  },
+  {
+    "handle": "lena.psea.social",
+    "name": "Lena Hoffmann",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Lena+Hoffmann",
+    "banner": "https://picsum.photos/seed/lena/600/150",
+    "description": "Travel blogger exploring the unseen places. 🌍",
+    "followers": 3700
+  },
+  {
+    "handle": "felix.psea.social",
+    "name": "Felix Becker",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Felix+Becker",
+    "banner": "https://picsum.photos/seed/felix/600/150",
+    "description": "Software architect crafting efficient solutions. 🏗️",
+    "followers": 4800
+  },
+  {
+    "handle": "lucy.psea.social",
+    "name": "Lucy Bauer",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Lucy+Bauer",
+    "banner": "https://picsum.photos/seed/lucy/600/150",
+    "description": "Animal lover & wildlife photographer. 🐾",
+    "followers": 3100
+  },
+  {
+    "handle": "david.historians.org",
+    "name": "David Keller",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=David+Keller",
+    "banner": "https://picsum.photos/seed/david/600/150",
+    "description": "History buff & researcher diving into the past. 📜",
+    "followers": 4500
+  },
+  {
+    "handle": "sara.psea.social",
+    "name": "Sara Lehmann",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Sara+Lehmann",
+    "banner": "https://picsum.photos/seed/sara/600/150",
+    "description": "Nature enthusiast hiking across stunning landscapes. 🏔️",
+    "followers": 3800
+  },
+  {
+    "handle": "tom.psea.social",
+    "name": "Tom Wagner",
+    "picture": "https://avatar.iran.liara.run/public/boy?username=Tom+Wagner",
+    "banner": "https://picsum.photos/seed/tom/600/150",
+    "description": "Digital artist creating futuristic worlds. 🎨",
+    "followers": 4200
+  },
+  {
+    "handle": "hannah.chefsblog.co.uk",
+    "name": "Hannah Meier",
+    "picture": "https://avatar.iran.liara.run/public/girl?username=Hannah+Meier",
+    "banner": "https://picsum.photos/seed/hannah/600/150",
+    "description": "Chef experimenting with bold flavors & recipes. 🍽️",
+    "followers": 3900
+  }
+]
