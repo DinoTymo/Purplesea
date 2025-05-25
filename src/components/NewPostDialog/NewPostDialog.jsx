@@ -22,25 +22,15 @@ function NewPostDialog({ setDialogVisible, isDialogVisible }) {
     };
 
     $.ajax({
-      type: "GET",
-      url: "/data/posts.json",
+      type: "POST",
+      url: "http://localhost:3001/posts",
+      data: JSON.stringify(newPost),
       dataType: "json",
-      success: function (posts) {
-        posts.unshift(newPost);
-        console.log(JSON.stringify(posts));
-
-        $.ajax({
-          type: "POST",
-          url: "/data/posts.json",
-          data: JSON.stringify(posts),
-          dataType: "json",
-          success: function () {
-            setDialogVisible(!isDialogVisible);
-          },
-          error: function () {
-            console.error("Failed to post post");
-          },
-        });
+      success: function () {
+        setDialogVisible(!isDialogVisible);
+      },
+      error: function () {
+        console.error("Failed to post post");
       },
     });
   }
