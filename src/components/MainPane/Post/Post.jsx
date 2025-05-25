@@ -1,6 +1,6 @@
 import React from "react";
 import ImageCard from "./ImageCard";
-import Avatar from "../../ProfilePic/Avatar";
+import Avatar from "../../ProfilePic/ProfilePic";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { faRepeat } from "@fortawesome/free-solid-svg-icons";
