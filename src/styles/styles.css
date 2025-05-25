@@ -9,7 +9,7 @@ body {
   background-color: var(--gray-900);
 }
 
-#specialNavbar{
+#specialNavbar {
   display: flex !important;
   flex-direction: row !important;
   justify-content: space-around !important;
@@ -43,6 +43,7 @@ body {
   width: 33%;
   min-width: 300px;
   position: fixed;
+  z-index: 999999999;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
