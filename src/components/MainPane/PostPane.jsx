@@ -1,21 +1,24 @@
 import React, { useState, useEffect } from "react";
 import Post from "./Post/Post";
 
-function PostPane() {
-  const [posts, setPost] = useState(null);
+function PostPane({ handle }) {
+  const [posts, setPosts] = useState(null);
+
   useEffect(() => {
     fetch("http://localhost:3001/posts")
       .then((response) => response.json())
       .then((postResults) => {
-        setPost(postResults);
+        const filtered = handle
+          ? postResults.filter((post) => post.user === handle)
+          : postResults;
+        filtered.sort((a, b) => b.timestamp - a.timestamp);
+        setPosts(filtered);
       });
-  }, []);
+  }, [handle]);
 
   if (!posts) {
     return null;
   }
-
-  posts.sort((a, b) => b.timestamp - a.timestamp);
 
   return (
     <div className="post-pane">
