@@ -1,6 +1,8 @@
 [
   {
     "user": "(handle)",
+    "age": 0,
+    "likes": 0,
     "content": { "text": "", "attachment": "" }
   }
 ]
