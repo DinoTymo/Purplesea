@@ -26,7 +26,6 @@ function Post(props) {
       .then((userResults)=>{
         const foundUser = userResults.find((userResult) => userResult.handle === props.handle);
         setUser(foundUser);
-        console.log(user);
       });        
   }, []);
   

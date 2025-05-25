@@ -1,9 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Post from "./Post/Post";
 
-function PostPane() {
-  console.log("hi");
-  
+function PostPane() {  
   const [posts, setPost] = useState(null);
   useEffect(()=>{
     fetch("/data/posts.json")
