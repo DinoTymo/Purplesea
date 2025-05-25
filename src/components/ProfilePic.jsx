@@ -7,7 +7,6 @@ function ProfilePic({ handle, size }) {
     fetch("http://localhost:3001/users")
       .then((response) => response.json())
       .then((userResults) => {
-        console.log(userResults);
         const foundUser = userResults.find(
           (userResult) => userResult.handle === handle,
         );

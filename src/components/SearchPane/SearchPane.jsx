@@ -6,9 +6,9 @@ function SearchPane() {
   return (
     <div className="search-pane p-4 sticky-top">
       <div className="search-bar">
-        <div class="input-group flex-nowrap">
+        <div className="input-group flex-nowrap">
           <span
-            class="input-group-text"
+            className="input-group-text"
             id="addon-wrapping"
             style={{ background: "#161e27" }}
           >
@@ -16,7 +16,7 @@ function SearchPane() {
           </span>
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             placeholder="Search"
             aria-label="Search"
             aria-describedby="addon-wrapping"
