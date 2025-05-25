@@ -4,28 +4,34 @@ import Post from "./Post/Post";
 function PostPane() {
   console.log("hi");
   
-  const [post, setPost] = useState(null);
+  const [posts, setPost] = useState(null);
   useEffect(()=>{
     fetch("/data/posts.json")
-      .then((response)=>{
-        response.json();
-        console.log(response);
+      .then((response)=>
+        response.json()
+      )
+      .then((postResults)=>{
+        setPost(postResults);
       })
-      .then((posts)=>{
-        setPost(posts);
-      })
-  });
+  }, []);
   
-  if(!post){
+  if(!posts){
     return null;
   }  
 
   return (    
     <div className="post-pane">
-      <p>muhahahahah</p>
-      <Post username="urmum" handle={post[0].user} timestamp="2 Std." content="das in der json halt" comments="154" reposts="10" likes="354" />
-      <Post username="urmum" handle="urmum@psea.social" timestamp="2 Std." content="das in der json halt" comments="74" reposts="2" likes="98" />
-      <Post username="urmum" handle="urmum@psea.social" timestamp="2 Std." content="das in der json halt" comments="45" reposts="68" likes="451" />
+      {posts.map((post) => (
+        <Post 
+          key={self.crypto.randomUUID()}
+          handle={post.user} 
+          timestamp={post.timestamp} 
+          content={post.content} 
+          comments={post.comments} 
+          reposts={post.reposts} 
+          likes={post.likes} 
+        />
+      ))}
     </div>
   );  
 }

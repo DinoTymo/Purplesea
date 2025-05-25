@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import ImageCard from "./ImageCard";
 import Avatar from "../../ProfilePic/ProfilePic";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,6 +7,23 @@ import { faRepeat } from "@fortawesome/free-solid-svg-icons";
 import { faMessage } from "@fortawesome/free-regular-svg-icons";
 
 function Post(props) {
+  const [user, setUser] = useState(null);
+    useEffect(()=>{
+      fetch("/data/users.json")
+        .then((response)=>
+          response.json()
+        )
+        .then((userResults)=>{
+          const foundUser = userResults.find((userResult) => userResult.handle === props.handle);
+          setUser(foundUser);
+          console.log(user);
+        });        
+    }, []);
+
+    if(!user){
+      return null;
+    } 
+
   return (
     <div className="card mx-auto p-2 text-bg-dark border border-dark-subtle">
       <div className="card-header post-creator d-flex flex-row mb-3">
@@ -16,7 +33,7 @@ function Post(props) {
       <div className="card-body">
         <div className="card-text">
           <p>
-            {props.content}
+            {props.content.text}
           </p>
           <ImageCard />
         </div>
