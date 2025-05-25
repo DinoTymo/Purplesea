@@ -5,7 +5,7 @@ import PostBody from "./PostBody";
 function Post(props) {
 
   const date = new Date(props.timestamp * 1000);
-  const formattedDate = date.toLocaleString("de-DE", {
+  const formatedDate = date.toLocaleString("de-DE", {
     day: "2-digit",
     month: "2-digit",
     year: "numeric",
