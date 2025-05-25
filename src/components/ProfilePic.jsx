@@ -4,9 +4,10 @@ function ProfilePic({ handle, size }) {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch("/data/users.json")
+    fetch("http://localhost:3001/users")
       .then((response) => response.json())
       .then((userResults) => {
+        console.log(userResults);
         const foundUser = userResults.find(
           (userResult) => userResult.handle === handle,
         );
